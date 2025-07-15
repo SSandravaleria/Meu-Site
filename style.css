@@ -1,0 +1,149 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header{
+    background-color: #b30000;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #990000;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+
+header p {
+margin: 0.5rem;
+font-style: italic;
+color: #ffe5e5;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd6d6;
+}
+
+/* Seção destaque (hero) */
+#hero {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: #ffebeb;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  color: #b30000;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #661111;
+}
+
+#hero button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #b30000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+#hero button:hover {
+  background-color: #a00000;
+}
+
+/* Seções gerais */
+section {
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  color: #b30000;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+/* Lista de serviços */
+#servicos ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#servicos li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #660000;
+}
+
+/* Formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #990000;
+}
+
+/* Rodapé */
+footer {
+  background-color: #b30000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
